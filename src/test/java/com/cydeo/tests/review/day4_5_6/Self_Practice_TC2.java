@@ -1,4 +1,4 @@
-package com.cydeo.tests.day04_findElements_checkboxes_radio;
+package com.cydeo.tests.review.day4_5_6;
 
 import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
@@ -26,6 +26,7 @@ public class Self_Practice_TC2 {
     public void tearDownMethod(){
         driver.close();
     }
+
     @Test
     public void fillingFormTestTC1() throws InterruptedException {
         // 3. Enter First name: "John"
