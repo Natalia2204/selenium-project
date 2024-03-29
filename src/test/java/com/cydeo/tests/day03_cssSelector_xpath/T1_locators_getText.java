@@ -44,6 +44,7 @@ public class T1_locators_getText {
             System.out.println("FAILED");
         }
 
+        driver.quit();
     }
 }
 /*
